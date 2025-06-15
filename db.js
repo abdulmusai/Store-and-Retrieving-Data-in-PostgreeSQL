@@ -6,7 +6,7 @@ application.use(cor());
 
 const pool = new Pool({
     user:'postgres',
-    hsot:'localhost',
+    host:'localhost',
     database:'userdb',
     password: 'musainuwa',
     port: 5432,
